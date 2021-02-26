@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+    <title>Order Form</title>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://use.fontawesome.com/releases/v5.15.1/js/all.js" data-auto-replace-svg="nest"></script>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <link rel="stylesheet" href="orderform.css">
+        <script src="orderform.js" async></script>
+    </head>
+    <body>
+        <form name="Sandalform" id="haf">
+            <h1>Order Form</h1>
+
+            <input name="customer" id="cust" size="50" type="text" placeholder="name"><br>
+            <input address="address" id="adr" size="50" type="text" placeholder="address"><br>
+            <input city="city" id="city" size="50" type="text" placeholder="city"><br>
+            <input country="country" id="country" size="50" type="text" placeholder="country"><br>
+            <input city="postcode" id="postcode" size="50" type="text" placeholder="postcode"><br>
+            <input phone="phone" id="phone" size="50" type="text" placeholder="phone"><br>
+
+            <h4>Select the size of sandal</h4>
+
+            <input name="sizes" type="radio" value="small">Size 8<br>
+            <input name="sizes" type="radio" value="medium">Size 9/10<br>
+            <input name="sizes" type="radio" value="large">Size 11<br>
+            <input name="sizes" type="radio" value="X-large">Size 12<br>
+
+            <h4>Select the type of Sandal</h4>
+
+            <input name="types" type="radio" value="CrossStrap">CrossStrap<br>
+            <input name="types" type="radio" value="CrossStrap">Sliders<br>
+            <input name="types" type="radio" value="CrossStrap">Classics<br>
+
+            <h4>Amount</h4>
+            <select id="sel">
+                <option value="1">1</option>
+                <option value="1">2</option>
+                <option value="1">3</option>
+                <option value="1">4</option>
+                <option value="1">5</option>
+                <option value="1">6</option>
+                <option value="1">7</option>
+                <option value="1">8</option>
+                <option value="1">9</option>
+                <option value="1">10</option>
+            </select>
+
+            <h4>PAYMENT METHOD</h4>
+            <input name="pay" type="radio" value="visa">VISA<br>
+            <input name="pay" type="radio" value="invoice">PAYPAL/SKRILL<br>
+            <input name="pay" type="radio" value="mastercard">MASTERCARD<br>
+            <br>
+
+            <button><a href="https://naughty-liskov-357686.netlify.app/">Check Out</a></button>
+            <br>
+            <br>
+            <h4>Order Confirmation</h4>
+            <div id="1S1Values"></div>
+        </form>
+    </body>
+</html>
